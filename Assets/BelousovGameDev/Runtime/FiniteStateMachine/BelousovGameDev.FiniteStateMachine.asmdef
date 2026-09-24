@@ -1,0 +1,17 @@
+{
+    "name": "BelousovGameDev.FiniteStateMachine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:64543b6b27316f444904fb253c5fed8e",
+        "GUID:26d033efdf5c5fa4b9772e313d403255"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

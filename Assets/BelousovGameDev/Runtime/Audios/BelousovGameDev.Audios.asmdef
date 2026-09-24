@@ -1,0 +1,21 @@
+{
+    "name": "BelousovGameDev.Audios",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d5ff5e78780277246aa32f920c0a35ef",
+        "GUID:008975ced862fd745991829fc3aea4ac",
+        "GUID:0ff9acc681fd1a3468996beb71d12d63",
+        "GUID:1530a967b84cfb44dbdd5e8a1989764f",
+        "GUID:3bf09073f32d10944a5fcdbae8761f4d",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
