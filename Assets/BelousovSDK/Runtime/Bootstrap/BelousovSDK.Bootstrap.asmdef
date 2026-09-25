@@ -1,0 +1,21 @@
+{
+    "name": "BelousovSDK.Bootstrap",
+    "rootNamespace": "",
+    "references": [
+        "GUID:36e66f43b1a813d479f0259d45b76036",
+        "GUID:1530a967b84cfb44dbdd5e8a1989764f",
+        "GUID:666c13f547db6b64eb7a9148b5a8a007",
+        "GUID:7d650c7cbce55a7438c84139fa01d492",
+        "GUID:3bf09073f32d10944a5fcdbae8761f4d",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
