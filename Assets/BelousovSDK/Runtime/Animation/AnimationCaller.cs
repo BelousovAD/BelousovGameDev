@@ -16,7 +16,7 @@ namespace BelousovSDK.Animation
         };
 
         [SerializeField] private StateMachineProvider _stateMachineProvider;
-        [SerializeField] private Animator _animator;
+        [SerializeField] private CustomAnimator _animator;
 
         private StateMachine _stateMachine;
 

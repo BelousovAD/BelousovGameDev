@@ -3,13 +3,13 @@ using UnityEngine;
 
 namespace BelousovSDK.Animation
 {
-    [RequireComponent(typeof(UnityEngine.Animator))]
-    internal class Animator : MonoBehaviour
+    [RequireComponent(typeof(Animator))]
+    internal class CustomAnimator : MonoBehaviour
     {
         [SerializeField] private List<AnimationKey> _keys;
 
         private readonly Dictionary<AnimationKey, int> _parameters = new ();
-        private UnityEngine.Animator _animator;
+        private Animator _animator;
 
         private void Awake() =>
             Initialize();
@@ -21,8 +21,8 @@ namespace BelousovSDK.Animation
                 return;
             }
             
-            _animator = GetComponent<UnityEngine.Animator>();
-            _keys.ForEach(key => _parameters.Add(key, UnityEngine.Animator.StringToHash(key.ToString())));
+            _animator = GetComponent<Animator>();
+            _keys.ForEach(key => _parameters.Add(key, Animator.StringToHash(key.ToString())));
         }
 
         public void Play(AnimationKey key)
