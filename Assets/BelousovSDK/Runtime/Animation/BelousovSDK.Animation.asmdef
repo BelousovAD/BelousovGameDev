@@ -1,0 +1,16 @@
+{
+    "name": "BelousovSDK.Animation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:203723ba120be4742ade1ff82ab3fc8b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
