@@ -15,7 +15,7 @@ namespace BelousovSDK.FiniteStateMachine
 
         public State Current => _current?.State;
 
-        public void Update(float deltaTime)
+        public void Update()
         {
             Transition transition = GetActivatedTransition();
 

@@ -15,13 +15,13 @@ namespace BelousovSDK.Animation
             [StateType.Run] = AnimationKey.Run,
         };
 
-        [SerializeField] private MonoBehaviour _stateMachineProvider;
+        [SerializeField] private StateMachineProvider _stateMachineProvider;
         [SerializeField] private Animator _animator;
 
         private StateMachine _stateMachine;
 
         private void Awake() =>
-            _stateMachine = ((IStateMachineProvider)_stateMachineProvider).StateMachine;
+            _stateMachine = _stateMachineProvider.StateMachine;
 
         private void OnEnable()
         {
@@ -39,17 +39,6 @@ namespace BelousovSDK.Animation
             {
                 _animator.Play(key);
             }
-        }
-
-        private void OnValidate()
-        {
-            if (_stateMachineProvider is null or IStateMachineProvider)
-            {
-                return;
-            }
-            
-            Debug.LogError($"{nameof(_stateMachineProvider)} must inherit {nameof(IStateMachineProvider)}");
-            _stateMachineProvider = null;
         }
     }
 }
